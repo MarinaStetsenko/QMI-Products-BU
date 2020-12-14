@@ -8,13 +8,32 @@ body {
     max-width: 1980px;
     margin: auto;
 }
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
+
+header {
+    background-image: url(../img/hands-on-ice.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 
+#qmi-logo img {
+    width: 60%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+
+}
+
+.burger-icon {
+    font-size: 3rem;
+}
+
+.menu {
+    text-decoration: none;
+}
+/*
 @media (min-width: 650px) {
 
     .navbar-toggle {
@@ -54,3 +73,4 @@ body {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+*/

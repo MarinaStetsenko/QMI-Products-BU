@@ -9,206 +9,33 @@
     </head>
     <body>
         <header id="home">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#products">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#testimonials">Testimonials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacts">Contact us</a>
-                            </li>
-                            <div class="image-container logo">
-                                <img src="img/qmi-logo.png" alt="QMI products logo">
-                            </div>
-                        </ul>
-                        <span class="navbar-text">
-                            <p>+47 950 55 459<span>
-                                    &#124;
-                                </span>Bjorkelangen, Norway</p>
-                        </span>
-                    </div>
+            <nav>
+                <label class="burger-icon" for="burger-checkbox">☰</label>
+                <input type="checkbox" id="burger-checkbox">
+                <div class="menu">
+                    <a href="#about">About us</a>
+                    <a href="#products">Products</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contacts">Contact us</a>
+                </div>
+                <div class="image-container" id="qmi-logo">
+                    <img src="img/qmi-logo.png" alt="QMI products logo">
+                </div>
+                <div class="header-contacts">
+                    <p>+47 950 55 459
+                        <span>&#124;</span>
+                        Bjorkelangen, Norway</p>
                 </div>
             </nav>
 
+            <div class="banner">
+                <h1>qmi products</h1>
+                <h2>slippery as "wet ice on wet ice"</h2>
+                <button class="button">Contact us</button>
+                <button class="button">Learn more</button>
+            </div>
+        </header>
 
-            <!-- 
-            <nav class="header-menu">
-                            <div class="logo">
-                                <img src="img/qmi-logo.png" alt="QMI products logo">
-                            </div>
-                            <div class="menu">
-                                <a href="#about">About us</a>
-                                <a href="#products">Products</a>
-                                <a href="#testimonials">Testimonials</a>
-                                <a href="#contacts">Contact us</a>
-                            </div>
-                            <div class="header-contacts">
-                                <p>+47 950 55 459
-                                    <span>&#124;</span>
-                                    Bjorkelangen, Norway</p>
-                            </div> 
-                        </nav>     
-                        <div class="banner">
-                            <img src="img/hands-on-ice.jpg" alt="Hands holding a large ice cube">
-                            <h1>qmi products</h1>
-                            <h2>slippery as "wet ice on wet ice"</h2>
-                            <button>Contact us</button>
-                            <button>Learn more</button>
-                        </div>   
-                    </header>
-            -->
-
-
-            <!-- 
-                    <main>
-                        <section class="about-brand">
-                            <h3 id="about">About Us</h3>
-                            <p>QMI Products is a part of QMI Scandinavia, that has been on the market of Norway for more than 20 years. QMI is the World leader in Marine Maintenance by using a proprietary PTFE technology for Friction Surfaces. QMI protects metal-to-metal friction surfaces with PTFE treatment, like “wet ice on wet ice,” a substitute wear surface that reduces friction and heat, while improving performance and energy efficiency, prolonging life and trouble-free operation.
-                            </p>
-                            <img src="img/red-engine.jpg" alt="Red engine">
-                        </section>
-            
-                        <section class="product-options">
-                            <h3 id="products">Products</h3>
-                            <p>best for:</p>
-                            <article class="product-categories">
-                                <h4>Marine</h4>
-                                <img src="img/marine.jpg" alt="A boat sailing">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <a href="#">Learn more
-                                    <span>&rarr;</span>
-                                </a>
-                            </article>
-            
-                            <article class="product-categories">
-                                <h4>Cars</h4>
-                                <img src="img/car.jpg" alt="Red car">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <a href="#">Learn more
-                                    <span>&rarr;</span>
-                                </a>
-                            </article>
-            
-                            <article class="product-categories">
-                                <h4>Other vehicles</h4>
-                                <img src="img/bike.jpg" alt="Harley Davidson motorcycle">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <a href="#">Learn more
-                                    <span>&rarr;</span>
-                                </a>
-                            </article>
-                        </section>
-            
-                        <section class="costumers-testimonials">
-                            <h3 id="testimonials">Testimonials</h3>
-                            <article class="costumers">
-                                <img src="img/barber-ship-management.png" alt="BSM logo">
-                                <h4>Barber Ship Management</h4>
-                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."</p>
-                            </article>
-            
-                            <article class="costumers">
-                                <img src="img/sea-pride.jpg" alt="Sea Pride boat">
-                                <h4>Sea Pride</h4>
-                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."</p>
-                            </article>
-            
-                            <article class="costumers">
-                                <img src="img/gc-parana.jpg" alt="GC Parana boat">
-                                <h4>GC PARANA (WESNAV)</h4>
-                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."</p>
-                            </article>
-                        </section>
-            
-                        <section class="contacts-banner">
-                            <h3 id="contacts">Contact Us</h3>
-                            <p>For all enquires, please fill out the form or contact us directly</p>
-                            <img src="img/sea.jpeg" alt="Sea waves">
-            
-                            <table>
-                                <tr>
-                                    <td rowspan="2">Address</td>
-                                    <td>Stasjovseien 20</td>
-                                </tr>
-                                <tr>
-                                    <td>Bjorkelangen, Norway</td>
-                                </tr>
-            
-                                <tr>
-                                    <td>Hours</td>
-                                    <td>Monday - Saturday 9 AM - 7 PM</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">Contacts</td>
-                                    <td>
-                                        <a href="mailto:sigmund.kverne@qmiproducts.com">sigmund.kverne@qmiproducts.com</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>email</td>
-                                </tr>
-                            </table>
-            
-                            <p>QMI Products (place of distribution)</p>
-                            
-                            <div id="map"></div>
-                        </section>
-            
-                        <section class="request form">
-                            <form>
-                                <h4>How can we help?</h4>
-                                <label for="username">
-                                    <input type="text" name="username" id="username" placeholder="Enter your full name">
-                                </label>
-                                <br>
-                                <label for="user-phone">
-                                    <input type="text" name="phone" id="user-phone" placeholder="Enter your phone number">
-                                </label>
-                                <br>
-                                <label for="user-email">
-                                    <input type="email" name="email" id="user-email" placeholder="Enter your email">
-                                </label>
-                                <br>
-                                <label for="user-message">
-                                    <textarea rows="5" cols="17" name="message" id="user-message">Type your message</textarea>
-                                </label>
-                                <br>
-                                <input type="submit">
-                            </form>
-                        </section>
-            
-                        <footer>
-                            <nav class="footer-menu">
-                                <div class="logo">
-                                    <img src="img/qmi-logo.png" alt="QMI products logo">
-                                </div>
-                                <div class="menu">
-                                    <a href="#about">About us</a>
-                                    <a href="#products">Products</a>
-                                    <a href="#testimonials">Testimonials</a>
-                                    <a href="#contacts">Contact us</a>
-                                </div>
-            
-                                <div class="social networks">
-                                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook icon"></a>
-                                    <a href="#"><img src="img/email-icon.png" alt="Email icon"></a>
-                                </div>
-                            </nav>
-                        </footer>
-                    </main>
-                -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
 </html>
