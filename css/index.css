@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800 &display=swap');:root {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    --main-color: rgb(235, 235, 235);
+}
+
+body {
+    max-width: 1980px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+@media (min-width: 650px) {
+
+    .navbar-toggle {
+        display: none;
+    }
+
+
+    header nav {
+        display: flex;
+    }
+
+    header nav .menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+    .product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 980px) {
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
